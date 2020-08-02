@@ -6,32 +6,110 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Gochi Hand', cursive
 */
 
-.clear::after, .clear::before {clear:both;}
+/* Bootstrap has a `.clearfix` built in: below is not needed */
+/* .clear::after,
+.clear::before {
+  clear: both;
+} */
+
 
 /*general*/
-body {font-family: 'Nunito', sans-serif; background-color: #F29422; font-size: 1rem;}
-p {color:#0d0d0d;} 
-p a {text-decoration: underline;}
-ul li.active {background-color:#fff;}
-a {color:#173C45; }
-h2 {color:#8C2711; font-family: 'Gochi Hand', cursive; margin-bottom:20px;}
-h3 {color:#173C45; font-family: 'Gochi Hand', cursive;}
-h4 {color:#173C45; font-family: 'Gochi Hand', cursive;}
-h5 {color:#BF3E0F; font-family: 'Gochi Hand', cursive;}
- 
- 
+body {
+  font-family: "Nunito", sans-serif;
+  background-color: #f29422;
+  font-size: 1rem;
+}
+p {
+  color: #0d0d0d;
+}
+p a {
+  text-decoration: underline;
+}
+ul li.active {
+  background-color: #fff;
+}
+a {
+  color: #173c45;
+}
 
- /*molly*/
- .navigation {background:#F2D338; border-left:15px solid #fff;   }
- .navigation ul  { margin:25px -15px 0 -15px; display:block; padding:0;} 
- .navigation ul li {list-style-type: none; margin:0; padding:10px 0; display:block;}
- .navigation ul a {display:block; padding-left:25px; font-weight:bold;}
- .main-content {padding:2rem 2rem 0 2rem}
- .sitecard {padding:20px; border-radius:10px; background-color:#f5a94c; min-height:220px; box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.2); margin-bottom:20px;}
- .sitecard ul {padding:0 0 0 25px; font-size:.9rem;}
- .sitecard.sitelinks.funstuff img {width:200px; height:auto; padding: 0 10px 10px 10px;}
- .sitecard.sitelinks.funstuff img.fullwidth {width:100%; height: auto;}
- .sitecard.sitelinks.pro img {margin:0 auto; display: block;}
- .sitecard.sitelinks img.rightimg {float:right; display:inline-block; margin: 0 0 0 10px; width:200px;}
+/* Headers */
+h2, h3, h4, h5 {
+  font-family: "Gochi Hand", cursive;
+}
+h2 {
+  color: #8c2711;
+  margin-bottom: 20px;
+}
+h3 {
+  color: #173c45;
+}
+h4 {
+  color: #173c45;
+}
+h5 {
+  color: #bf3e0f;
+}
 
- 
+/*molly*/
+.navigation {
+  background: #f2d338;
+  border-left: 15px solid #fff;
+}
+.navigation .nav {
+  margin: 0 -15px;
+  min-height: calc(100vh - 25px);
+}
+.navigation .nav .nav-item .nav-link {
+  font-weight: bold;
+  /*
+    Bootstrap padding is 0.5rem top-bottom, 1rem left-right.
+    Adding 10px to top and bottom comes to ~18px, nearly equivalent to 1rem (16px).
+    Setting left to 25px is nearly equivalent to 1.5rem (~24px).
+  */
+  padding: 1rem;
+  padding-left: 1.5rem;
+}
+.navigation .nav .nav-item .nav-link.active {
+  background-color: #fff;
+}
+
+.main-content {
+  /* Equivalent: padding: 2rem 2rem 0 2rem; */
+  padding: 2rem;
+  padding-bottom: 0;
+}
+.sitecard {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f5a94c;
+  min-height: 220px;
+  box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+.sitecard ul {
+  /* padding: 0 0 0 25px; */
+  padding: 0;
+  padding-left: 25px;
+  font-size: 0.9rem;
+}
+.sitecard.sitelinks.funstuff img {
+  width: 200px;
+  height: auto;
+  /* padding: 0 10px 10px 10px; */
+  padding: 10px;
+  padding-top: 0;
+}
+.sitecard.sitelinks.funstuff img.fullwidth {
+  width: 100%;
+  height: auto;
+}
+.sitecard.sitelinks.pro img {
+  margin: 0 auto;
+  display: block;
+}
+.sitecard.sitelinks img.rightimg {
+  float: right;
+  display: inline-block;
+  margin: 0 0 0 10px;
+  width: 200px;
+}
