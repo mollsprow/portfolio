@@ -17,6 +17,7 @@ collections:
 # Exclude certain files and directories from the build
 # https://jekyllrb.com/docs/configuration/options/#global-configuration
 exclude:
+  - .github
   - '*.gem'
   - '*.gemspec'
   - docs
