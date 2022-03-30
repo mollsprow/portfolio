@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "npm run build:dev && onchange \"tailwind.config.js\" \"../*.html\" -- npm run build:dev",
+    "start": "npm run build:dev && onchange \"tailwind.config.js\" \"../*.html\" \"../*.md\" \"../_layouts/*.html\" \"../_layouts/*.md\" \"../_tabs/*.html\" \"../_tabs/*.md\" -- npm run build:dev",
     "build": "postcss ./src/**/*.css -o ../static/css/styles.css --env production",
     "build:dev": "postcss ./src/**/*.css -o ../static/css/styles.css",
     "build:prod": "postcss ./src/**/*.css -o ../static/css/styles.css --env production"
