@@ -1,0 +1,16 @@
+title: Molly Prower's portfolio
+email: molls12@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  I love cheese.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://molly.riceprower.com/" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: mollsprow
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: "static"

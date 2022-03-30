@@ -13,10 +13,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="static/css/styles.css?v=1.0" />
+    <link rel="stylesheet" href="/static/css/styles.css?v=1.0" />
     <!-- Change the `v=0.1` to a different number if there are cache issues. -->
 
-    <title>molly prower loves cheese</title>
+    <title>{{ page.title }} | Molly Prower</title>
   </head>
   <body class="bg-[#ff8000] min-h-full"> <!-- Original: #ff8000 -->
     <div class="container mx-auto">
@@ -45,24 +45,33 @@
             class="border-l-[2rem] border-[#68534d] h-full"
           >
             <ul class="border-t-4 border-t-[#f1f1f1] p-4">
-              <li class="text-xl -ml-[3rem] -mr-4 bg-white text-[#81726a]">
+              <li class="sidebar-link {% if page.url == '/' %}active{% endif %}">
                 <a
                   class="block py-1 pl-[3rem]"
                   href="/"
                 >About</a>
               </li>
-              <li class="text-xl -ml-[3rem] -mr-4 hover:bg-gray-700">
+              {% for tab in site.tabs %}
+              <li class="sidebar-link {% if page.url == tab.url %}active{% endif %}">
+                <a
+                  class="block py-1 pl-[3rem]"
+                  href="{{ tab.url }}"
+                >{{ tab.title }}</a>
+              </li>
+              </li>
+              {% endfor %}
+              <!-- <li class="sidebar-link {% if page.sidebar_link == 'case_studies' %}active{% endif %}">
                 <a
                   class="block py-1 pl-[3rem]"
                   href=""
                 >Case Studies</a>
               </li>
-              <li class="text-xl -ml-[3rem] -mr-4 hover:bg-gray-700">
+              <li class="sidebar-link {% if page.sidebar_link == 'resume' %}active{% endif %}">
                 <a
                   class="block py-1 pl-[3rem]"
                   href=""
                 >Resume</a>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
