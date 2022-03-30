@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# Molly's portfolio website
 
-You can use the [editor on GitHub](https://github.com/mollsprow/Skepsi/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+See it live here: https://molly.riceprower.com/
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Running locally
 
-### Markdown
+Site is built with Jekyll and can be built on a local machine for testing.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Follow [Jekyll Prerequisite installation instructions](https://jekyllrb.com/docs/installation/).
+2. Run `gem install jekyll bundle`.
+3. Run `bundle exec jekyll serve`.
+4. Open the running site at http://localhost:4000.
 
-```markdown
-Syntax highlighted code block
+You can then make changes to the site code and refresh your browser to see changes live.
 
-# Header 1
-## Header 2
-### Header 3
+### Tailwind
 
-- Bulleted
-- List
+Site uses [TailwindCSS](https://tailwindcss.com), which is run through **PostCSS** automatically.
 
-1. Numbered
-2. List
+Tailwind must be built to see changes, in order to produce the smallest CSS file possible. If not re-built for all changes made, those changes will not even appear!
 
-**Bold** and _Italic_ and `Code` text
+1. Navigate to the [`js_tools`](js_tools) directory locally.
+2. With **Node** and **NPM** installed, run `npm install`.
+3. Once install is complete, run `npm run start` to start a small server that watches for changes.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mollsprow/Skepsi/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+When committing, please run `npm run build` to produce the production version of the styles, and commit that new build.
