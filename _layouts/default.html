@@ -20,59 +20,60 @@
   </head>
   <body class="bg-[#ff8000] min-h-full"> <!-- Original: #ff8000 -->
     <div class="container mx-auto">
-      <div class="grid grid-flow-row-dense grid-cols-[380px_auto] grid-rows-[7rem_auto] h-screen">
+      <div
+        class="grid grid-flow-row-dense sm:grid-cols-[auto_1fr] sm:grid-rows-[auto_1fr] sm:h-screen
+               grid-cols-1 grid-rows-[auto_auto_1fr]"
+      >
         <!-- Side bar -->
         <div
           id="sidebar-top"
-          class="text-[#f1f1f1] bg-[#81726a] border-l-[1rem] border-r-[3rem] border-[#f1f1f1]"
+          class="text-[#f1f1f1] bg-[#81726a]
+                 sm:border-l-[1rem] sm:border-r-[3rem] sm:border-[#f1f1f1]"
         >
           <div
             id="inner"
-            class="border-l-[2rem] border-[#68534d] p-4 h-full"
+            class="border-l-[1rem] sm:border-l-[2rem] border-[#68534d] p-4 h-full"
           >
             <a class="hover:text-orange-500" href="/">
-              <h1 class="text-4xl mb-2">Molly Prower</h1>
-              <h2 class="text-2xl">UX Generalist</h2>
+              <h1 class="text-3xl sm:text-4xl mb-1 sm:mb-2">Molly Prower</h1>
+              <h2 class="text-xl sm:text-2xl">UX Generalist</h2>
             </a>
           </div>
         </div>
 
         <div
+          id="page-title"
+          class="prose pl-8 pt-4 sm:pt-0 text-gray-600 flex items-center
+                 row-start-3 sm:row-start-1 sm:col-start-2"
+        >
+          <h1>{{ page.title }}</h1>
+        </div>
+
+        <div
           id="sidebar-bottom"
-          class="row-start-2 col-start-1 text-[#f1f1f1] bg-[#81726a] border-l-[1rem] border-r-[3rem] border-[#f1f1f1] "
+          class="text-[#f1f1f1] bg-[#81726a]
+                 sm:border-l-[1rem] sm:border-r-[3rem] border-[#f1f1f1]
+                 border-b-2 sm:border-b-0"
         >
           <div
             id="inner"
-            class="border-l-[2rem] border-[#68534d] h-full"
+            class="sm:border-l-[2rem] border-[#68534d] h-full"
           >
-            <ul class="border-t-4 border-t-[#f1f1f1] p-4">
+            <ul class="sidebar-link-list border-t-2 sm:border-t-4">
               <li class="sidebar-link {% if page.url == '/' %}active{% endif %}">
                 <a
-                  class="block py-1 pl-[3rem]"
                   href="/"
                 >About</a>
               </li>
+
+              <!-- Automatic addition of tabs (from files in `_tabs` directory) -->
               {% for tab in site.tabs %}
               <li class="sidebar-link {% if page.url == tab.url %}active{% endif %}">
                 <a
-                  class="block py-1 pl-[3rem]"
                   href="{{ tab.url }}"
                 >{{ tab.title }}</a>
               </li>
-              </li>
               {% endfor %}
-              <!-- <li class="sidebar-link {% if page.sidebar_link == 'case_studies' %}active{% endif %}">
-                <a
-                  class="block py-1 pl-[3rem]"
-                  href=""
-                >Case Studies</a>
-              </li>
-              <li class="sidebar-link {% if page.sidebar_link == 'resume' %}active{% endif %}">
-                <a
-                  class="block py-1 pl-[3rem]"
-                  href=""
-                >Resume</a>
-              </li> -->
             </ul>
           </div>
         </div>
@@ -80,7 +81,7 @@
 
         <div
           id="content"
-          class="row-start-2 col-start-2 border-t-4 border-[#f1f1f1] "
+          class="sm:border-t-4 border-[#f1f1f1] "
         >
           <div class="prose pt-4 pl-8 text-black text-lg">
             {{ content }}

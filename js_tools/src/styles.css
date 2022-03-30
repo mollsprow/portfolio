@@ -3,10 +3,17 @@
 @tailwind utilities;
 
 @layer components {
+  /* Side bar list of links */
+  .sidebar-link-list {
+    @apply grid grid-cols-4 sm:block border-t-[#f1f1f1] sm:p-4;
+  }
   .sidebar-link {
-    @apply text-xl -ml-[3rem] -mr-4 hover:bg-gray-700;
+    @apply sm:block text-lg sm:text-xl sm:-ml-[3rem] sm:-mr-4 hover:bg-gray-700;
+  }
+  .sidebar-link > a {
+    @apply block py-1 sm:pl-[3rem] text-center sm:text-left;
   }
   .sidebar-link.active {
-    @apply text-xl -ml-[3rem] -mr-4 bg-white text-[#81726a] hover:bg-white;
+    @apply bg-white text-[#81726a] hover:bg-white;
   }
 }

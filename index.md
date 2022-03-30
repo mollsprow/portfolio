@@ -1,5 +1,5 @@
 ---
-title: About
+title: About me
 layout: default
 order: 1
 ---
