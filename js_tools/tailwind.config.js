@@ -5,8 +5,8 @@ module.exports = {
   content: [
     "../*.html",
     "../*.md",
-    "../_layouts/*.html",
-    "../_layouts/*.md",
+    "../**/*.html",
+    "../**/*.md",
   ],
   theme: {
     extend: {
