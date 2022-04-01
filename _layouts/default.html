@@ -8,13 +8,17 @@
     <!-- <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Nunito:ital,wght@0,400;0,800;1,600&display=swap" rel="stylesheet"> -->
 
     <!-- Our custom CSS -->
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/static/css/styles.css?v=1.2" />
-    <!-- Change the `v=0.1` to a different number if there are cache issues. -->
+    <link rel="stylesheet" href="/static/css/styles.css?v={{ 'now' | date: '%Y%m%d%H%M' }}" />
+    <!--
+      Liquid "date" filter adds a chunk to the URL at build time that attempts cache busting.
+      Cache busting: https://www.keycdn.com/support/what-is-cache-busting
+      Date filter: https://shopify.github.io/liquid/filters/date/
+    -->
+
 
     <title>{{ page.title }} | Molly Prower</title>
   </head>
