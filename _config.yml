@@ -18,6 +18,7 @@ collections:
 # https://jekyllrb.com/docs/configuration/options/#global-configuration
 exclude:
   - .github
+  - .vscode
   - '*.gem'
   - '*.gemspec'
   - docs
