@@ -24,3 +24,13 @@ Tailwind must be built to see changes, in order to produce the smallest CSS file
 3. Once install is complete, run `npm run start` to start a small server that watches for changes.
 
 When committing, please run `npm run build` to produce the production version of the styles, and commit that new build.
+
+### VS Code task: "Run stuff"
+
+Once all the above steps are working individually, you can start up the site locally using the VS Code task **Run stuff**.
+
+1. In VS Code, open the **Command pallette** (using `Ctrl-Shift-P` on Windows).
+2. Type "Run task". Choose the option **Tasks: Run Task**.
+3. Navigate to or type the task name "Run Stuff", then run this task.
+
+Both the **Jekyll** server and the **NPM** watcher (which re-runs Tailwind as needed) should start in side-by-side Terminal tabs. Keep both of these tabs running, then head to http://localhost:4000 to see the running site.
