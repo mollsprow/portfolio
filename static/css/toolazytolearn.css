@@ -6,6 +6,7 @@ body a {font-family: itim;}
 
 .case-studies p {margin-bottom:0;}
 .case-container {border-radius:8px; border:1px solid #a6a6a6; background-color: #f1f1f1; padding:.75rem }
+.case-studies .case-container p {margin-bottom:10px;}
 .case-container h3 {font-family: itim; font-weight:bold; text-align: center; margin-top:0}
 .case-container ul, .case-container li, .project-application {padding:0; margin:0; list-style-type: none; text-align:center;}
 .case-container li, .project-application li {border-right:1px solid #a6a6a6; padding-right:8px; margin-right:3px; display:inline-block;  }
