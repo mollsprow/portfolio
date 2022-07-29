@@ -3,7 +3,7 @@ title:
 layout: default
 order: 2
 ---
-
+<div class="case-studies">
 <h3>Case Studies</h3>
 
 <div class="case-outer-container">
@@ -85,3 +85,4 @@ Design Ops - UX Team Support development
 <li>affinity mapping</li>
 <li>training</li>
 </ul>
+</div>
