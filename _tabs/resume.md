@@ -4,8 +4,9 @@ layout: default
 order: 3
 ---
 
-Seasoned UX Researcher with an extensive background in product development and experience design over a range of fields from health care to education. Having been involved in every aspect of a product life cycle from conception to delivery, my passion lies in UX research and design operations. I have a need for continuous learning and challenging insufficient processes, and I thrive in environments that foster these interests.
+<a href="">Download Resume PDF</a>
 
+Seasoned UX Researcher with an extensive background in product development and experience design over a range of fields from health care to education. Having been involved in every aspect of a product life cycle from conception to delivery, my passion lies in UX research and design operations. I have a need for continuous learning and challenging insufficient processes, and I thrive in environments that foster these interests.
 
 <h2>EXPERIENCE</h2>
 
@@ -49,39 +50,41 @@ Seasoned UX Researcher with an extensive background in product development and e
 
 <h2>EDUCATION</h2>
 
-Temple University
-Philadelphia PA
-2003
-BA Digital Design
+<b>Temple University</b>
 
-Rutgers University
+Philadelphia PA
+
+2003 - BA Digital Design
+
+<b>Rutgers University</b>
+
 New Brunswick NJ
-2021
-MBS User Experience
+
+2021 - MBS User Experience
 
 <h2>SKILLSETS<h2>
 
 <h3>Career Based</h3>
-UX Product development life cycle activities
-Leading teams and design activities
-Interactive prototyping
-Applying research methodology pragmatically
-Data analyzation and presentation
-UX education/mentoring/ advocacy
-Written and oral communication
-Cross-functional collaboration
+UX Product development life cycle activities;
+Leading teams and design activities;
+Interactive prototyping;
+Applying research methodology pragmatically;
+Data analyzation and presentation;
+UX education/mentoring/ advocacy;
+Written and oral communication;
+Cross-functional collaboration;
 Agile/Scrum
 
 <h3>Software</h3>
-Adobe Suite
-Figma
-Miro/Mural/Google whiteboard
-PowerPoint
-Axure
-LucidChart
+Adobe Suite;
+Figma;
+Miro/Mural/Google whiteboard;
+PowerPoint;
+Axure;
+LucidChart;
 
 <h3>Favorite Research Topics</h3>
-ASL/Deaf and Hard of Hearing Assessments
-Map/GIS design, accessibility, and UI
-Digital toolkits for Math assessments
+ASL/Deaf and Hard of Hearing Assessments;
+Map/GIS design, accessibility, and UI;
+Digital toolkits for Math assessments;
 Tutorial design
