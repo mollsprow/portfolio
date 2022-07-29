@@ -1,10 +1,10 @@
 ---
-title: About me
+title:  
 layout: default
 order: 1
 ---
 
-<img src="img/molly-dino.png" alt="Animatronic triceratops and Molly Prower who wears glasses and is wearing a muskox hat." class="mollyimage" /> Nice to meet you!
+<img src="static/img/molly-dino.png" alt="Animatronic triceratops and Molly Prower who wears glasses and is wearing a muskox hat." class="mollyimage" /> Nice to meet you!
 
 Having touched products and experiences from conception to delivery since the early 00s, I've had my fair share of time exploring design from all angles. As the landscape changed so did my skills; my roots in front-end development and graphic design gradually transformed to a well-seasoned human-centered designer with a deepening love for UX research. 
 
