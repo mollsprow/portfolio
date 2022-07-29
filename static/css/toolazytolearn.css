@@ -10,9 +10,11 @@ body a {font-family: itim;}
 .case-container h3 {font-family: itim; font-weight:bold; text-align: center; margin-top:0}
 .case-container ul, .case-container li, .project-application {padding:0; margin:0; list-style-type: none; text-align:center;}
 .case-container li, .project-application li {border-right:1px solid #a6a6a6; padding-right:8px; margin-right:3px; display:inline-block;  }
-.case-container li:last-child, .project-application li:last-child {border-right:0; padding:0; margin:0;}
+.case-container li:last-child, .project-application li:last-child {border-right:0; padding-right:0; margin-right:0;}
+.case-container li:first-child, .project-application li:first-child {border-left:0; padding-left:0; margin-left:0;}
+
 .project-application {text-align:left;}
-.project-application li {top:0; font-size:16px; text-align:left; display:inline-block; margin-bottom:10px}
+.project-application li {top:0; font-size:16px; text-align:left; display:inline-block; margin-bottom:20px !important}
 .case-container a, .case-container span { text-align:center; display:block; margin-top:10px; font-weight:bold; color:#b77400 }
-.case-studies a {font-weight:500;   color:#b77400 }
+.case-studies a {font-weight:bold; color:#b77400 }
 .mollyimage {float:right; display:block; margin-left:10px; margin-bottom:20px;}
