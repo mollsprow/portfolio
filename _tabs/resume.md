@@ -52,19 +52,16 @@ Seasoned UX Researcher with an extensive background in product development and e
 
 <b>Temple University</b>
 
-Philadelphia PA
-
-2003 - BA Digital Design
+Philadelphia PA | 2003 - BA Digital Design
 
 <b>Rutgers University</b>
 
-New Brunswick NJ
-
-2021 - MBS User Experience
+New Brunswick NJ | 2021 - MBS User Experience
 
 <h2>SKILLSETS<h2>
 
 <h3>Career Based</h3>
+
 UX Product development life cycle activities;
 Leading teams and design activities;
 Interactive prototyping;
@@ -76,6 +73,7 @@ Cross-functional collaboration;
 Agile/Scrum
 
 <h3>Software</h3>
+
 Adobe Suite;
 Figma;
 Miro/Mural/Google whiteboard;
@@ -84,6 +82,7 @@ Axure;
 LucidChart;
 
 <h3>Favorite Research Topics</h3>
+
 ASL/Deaf and Hard of Hearing Assessments;
 Map/GIS design, accessibility, and UI;
 Digital toolkits for Math assessments;
