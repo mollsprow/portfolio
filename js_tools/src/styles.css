@@ -16,4 +16,8 @@
   .sidebar-link.active {
     @apply bg-white text-[#81726a] hover:bg-white;
   }
+
+  .case-outer-container {
+    @apply grid sm:grid-cols-2 sm:grid-rows-2 gap-8 w-full;
+  }
 }
