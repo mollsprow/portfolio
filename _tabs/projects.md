@@ -4,7 +4,7 @@ layout: default
 order: 2
 ---
 
-<b>Case Studies</b>
+<h3>Case Studies</h3>
 
 <div class="case-outer-container">
   <div class="case-container">
@@ -42,46 +42,45 @@ order: 2
   </div>
 </div>
 
-Other Projects
+<h3>Other Projects</h3>
 
 <a href="http://www.climbtechnology.com/">Climb Technology</a> (B2B application)
-wireframes / usability testing / design system
-<ul>
+<ul class="project-application">
 <li>wireframes</li>
 <li>usability testing</li>
 <li>design system</li>
 </ul>
 
-<a href="https://www.dailyfx.com/dow-jones">Dow Jones ForEx Trader</a> (consumer application - defunct)
-<ul>
+<a href="https://www.dailyfx.com/dow-jones/">Dow Jones ForEx Trader</a> (consumer application - defunct)
+<ul class="project-application">
 <li>discovery</li>
 <li>interactive prototyping</li>
 <li>focus group interviews</li>
 </ul>
 
 <a href="https://edulastic.com/ets-testlets/">Testlets</a> (summative assessment design)
-<ul>
+<ul class="project-application">
 <li>storyboarding</li>
 <li>usability testing</li>
 <li>style guide management</li>
 </ul>
 
 <a href="https://www.nationsreportcard.gov/data_tools.aspx">Nations Report Cart Data Tools</a> (data reporting site)
-<ul>
+<ul class="project-application">
 <li>interactive prototyping</li>
 <li>front end development</li>
 <li>style guide design</li>
 </ul>
 
 <a href="https://skepsis.riceprower.com/">MyCommunitySite</a> UX Masters thesis project
-<ul>
+<ul class="project-application">
 <li>heuristics</li>
 <li>UI design</li>
 <li>quantiatative user testing</li>
 </ul>
 
 Design Ops - UX Team Support development
-<ul>
+<ul class="project-application">
 <li>documentation</li>
 <li>affinity mapping</li>
 <li>training</li>
