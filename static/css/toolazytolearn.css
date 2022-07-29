@@ -1,2 +1,9 @@
 body {font-family: 'Work Sans', sans-serif;}
 .container, .content {background-color:#f8f8f8;}
+
+.case-container {border-radius:8px; border:1px solid #a6a6a6; background-color: beige; padding:.5rem }
+.case-container h3 {font-family: itim; font-weight:bold; text-align: center;}
+.case-container ul, .case-container li {padding:0; margin:0; list-style-type: none; text-align:center;}
+.case-container li {border-right:1px solid #a6a6a6; padding-right:3px; margin-right:3px;}
+.case-container li:last-child {border-right:0; padding:0; margin:0;}
+.case-container a {font-weight:500; text-align:center; display:block; margin-top:10px;}

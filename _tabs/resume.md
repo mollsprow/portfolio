@@ -1,5 +1,5 @@
 ---
-title: Resume
+title: 
 layout: default
 order: 3
 ---
@@ -9,9 +9,6 @@ Seasoned UX Researcher with an extensive background in product development and e
 Molly Prower
 Seasoned UX Researcher with an extensive background in product development and experience design over a range of fields from health care to education. Having been involved in every aspect of a product life cycle from conception to delivery, my passion lies in UX research and design operations. I have a need for continuous learning and challenging insufficient processes, and I thrive in environments that foster these interests.
 
-
-<a href="mailto:molls12@gmail.com">molls12@gmail.com</a>
-<a href="https://www.linkedin.com/in/molly-prower/">Linkedin</a>
 
 EXPERIENCE
 
