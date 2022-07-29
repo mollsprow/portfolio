@@ -80,7 +80,8 @@
               </li>
 
               <!-- Automatic addition of tabs (from files in `_tabs` directory) -->
-              {% for tab in site.tabs %}
+              {% assign tab_items = site.tabs | sort: 'order' %}
+              {% for tab in tab_items %}
               <li class="sidebar-link {% if page.url == tab.url %}active{% endif %}">
                 <a
                   href="{{ tab.url }}"

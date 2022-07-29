@@ -12,7 +12,7 @@ github_username: mollsprow
 collections:
   tabs:
     output: true
-    sort_by: order
+    # sort_by: order  # Doesn't appear to work in GH Pages; use `| sort` filter in the layout, instead
 
 # Exclude certain files and directories from the build
 # https://jekyllrb.com/docs/configuration/options/#global-configuration
