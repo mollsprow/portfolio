@@ -1,5 +1,5 @@
 ---
-title: 
+title:
 layout: default
 order: 3
 ---
@@ -15,13 +15,13 @@ EXPERIENCE
 Educational Testing Service - UX Manager/Researcher
 April 2021-Present
 - Leads team designing digital assessments for the National Assessment of Educational Progress (NAEP) in multiple subjects. Storyboarding, UI and graphic design, QA, vendor management, project management, talent acquisition, advocating and UX writing.
-- Designs and implements roadmaps, schedules, and design  and production processes. 
+- Designs and implements roadmaps, schedules, and design  and production processes.
 - Creates and maintains design documentation and style guides/design systems. Designs interactive assessment experiences at multiple fidelity levels using Adobe XD and Figma.
 - Leads or conducts UX research (new product development, foundational and operational); study design, protocol writing, remote/in person interviews, heuristics, data analysis, taxonomy and reporting. Led research findings sharing sessions.
 - Trains ETS staff on UX research activities such as interviewing, sketching, and mapping. Developed resources and materials for additional staff training.
 - Spearheads Design Ops project with the goal of equipping my team with materials, resources, training, and support to benefit daily activities and streamline processes.
 - Leads and mentors a team of designers with varying degrees of design backgrounds and experiences. Responsible for project oversight, scheduling, community outreach and relationship building.
-- Executes team management responsibilities such as creating and maintaining documentation, training, job roles and responsibilities, hiring, reviews and communications. 
+- Executes team management responsibilities such as creating and maintaining documentation, training, job roles and responsibilities, hiring, reviews and communications.
 
 Educational Testing Service - UX Designer
 Aug 2015 - Mar 2021
@@ -35,7 +35,7 @@ Aug 2015 - Mar 2021
 HighPoint Solutions - UX/UI Consultant
 2014 - 2015
 - Partnered with an international pharmaceutical research company to create a standardized research data management portal. Researched design through extensive review of current systems and remote interviewing users across US and Germany. Delivered research findings and extensive interactive wireframes.
-- Designed interactive prototype, front-end code model, and style guide for an iPad app used to support multiple arms of a national pharmaceutical sales force. 
+- Designed interactive prototype, front-end code model, and style guide for an iPad app used to support multiple arms of a national pharmaceutical sales force.
 
 JBS - Front End Developer/UI Designer
 2012 - 2015
@@ -55,19 +55,19 @@ EDUCATION
 Temple University
 Philadelphia PA
 2003
-BA Digital Design 
+BA Digital Design
 
 Rutgers University
 New Brunswick NJ
 2021
-MBS User Experience 
+MBS User Experience
 
 SKILLS
 UX Product development life cycle activities
 Leading teams and design activities
 Interactive prototyping
 Applying research methodology pragmatically
-Data analyzation and presentation 
+Data analyzation and presentation
 UX education/mentoring/ advocacy
 Written and oral communication
 Cross-functional collaboration
@@ -80,12 +80,9 @@ Miro/Mural/Google whiteboard
 PowerPoint
 Axure
 LucidChart
- 
+
 FAVORITE RESEARCH TOPICS
 ASL/Deaf and Hard of Hearing Assessments
-Map/GIS design, accessibility, and UI 
+Map/GIS design, accessibility, and UI
 Digital toolkits for Math assessments
-Tutorial design 
-
-
-
+Tutorial design
