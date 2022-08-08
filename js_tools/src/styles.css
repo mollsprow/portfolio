@@ -16,8 +16,19 @@
   .sidebar-link.active {
     @apply bg-white text-[#81726a] hover:bg-white;
   }
+  /* Fake link for a sub-tag */
+  .sidebar-link.sub-tab {
+    @apply hidden sm:block sm:text-base bg-gray-700 text-white italic hover:bg-gray-900;
+  }
+  .sidebar-link.sub-tab.active {
+    @apply relative;
+  }
+  .sidebar-link.sub-tab.active:before {
+    content: "";
+    @apply bg-white block w-2 h-full absolute left-[2rem] top-0;
+  }
 
   .case-outer-container {
-    @apply grid sm:grid-cols-2 sm:grid-rows-2 gap-8 w-full;
+    @apply grid xl:grid-cols-2 xl:grid-rows-2 gap-8 w-full;
   }
 }

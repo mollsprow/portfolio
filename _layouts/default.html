@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full">
+<html lang="en" class="h-full scroll-smooth">
   <head>
     <!-- Required meta stuff -->
     <meta charset="UTF-8">
@@ -34,7 +34,7 @@
   <body class="bg-[#ff8000] min-h-full">
     <div class="container mx-auto">
       <div
-        class="grid grid-flow-row-dense sm:grid-cols-[auto_1fr] sm:grid-rows-[auto_1fr] sm:min-h-screen
+        class="grid grid-flow-row-dense sm:grid-cols-[330px_1fr] sm:grid-rows-[auto_1fr] sm:min-h-screen
                grid-cols-1 grid-rows-[auto_auto_1fr]"
       >
         <!-- Side bar -->
@@ -56,10 +56,12 @@
 
         <div
           id="page-title"
-          class="prose pl-8 pt-4 sm:pt-0 text-gray-600 flex items-center
+          class="p-8 pt-4 sm:pt-0 text-gray-600 flex items-center
                  row-start-3 sm:row-start-1 sm:col-start-2"
         >
-          <h1>{{ page.title }}</h1>
+          {% if page.hide_title != true %}
+          <h1 class="text-4xl font-bold">{{ page.title }}</h1>
+          {% endif %}
         </div>
 
         <div
@@ -81,12 +83,17 @@
 
               <!-- Automatic addition of tabs (from files in `_tabs` directory) -->
               {% assign tab_items = site.tabs | sort: 'order' %}
+              {% assign previous_tab_url = "None" %}
               {% for tab in tab_items %}
-              <li class="sidebar-link {% if page.url == tab.url %}active{% endif %}">
-                <a
-                  href="{{ tab.url }}"
-                >{{ tab.title }}</a>
+              {% if tab.is_sub_tab != true %}
+              <li class="sidebar-link {% if page.url == tab.url or page.sub_tab_group and page.sub_tab_group == tab.sub_tab_group %}active{% endif %}">
+                <a href="{{ tab.url }}">{{ tab.title }}</a>
               </li>
+              {% elsif page.sub_tab_group == tab.sub_tab_group %}
+              <li class="sidebar-link sub-tab {% if page.url == tab.url %}active{% endif %}">
+                <a href="{{ tab.url }}">{{ tab.tab_title }}</a>
+              </li>
+              {% endif %}
               {% endfor %}
             </ul>
           </div>

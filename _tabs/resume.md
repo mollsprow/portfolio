@@ -1,7 +1,7 @@
 ---
-title:
-layout: default
+title: "Resume"
 order: 3
+permalink: /resume/
 ---
 
 <a href="files/MollyPrower-Resume.pdf">Download Resume PDF</a>
@@ -52,12 +52,12 @@ Seasoned UX Researcher with an extensive background in product development and e
 
 <b>Temple University</b>
 
-Philadelphia PA 
+Philadelphia PA
 2003 - BA Digital Design
 
 <b>Rutgers University</b>
 
-New Brunswick NJ 
+New Brunswick NJ
 2021 - MBS User Experience
 
 <h2>SKILLSETS<h2>

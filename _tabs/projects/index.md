@@ -1,7 +1,8 @@
 ---
-title:
-layout: default
-order: 2
+title: "Projects"
+sub_tab_group: "projects"
+order: 2.0
+permalink: /projects/
 ---
 
 <h3>Case Studies</h3>
@@ -15,7 +16,7 @@ order: 2
   <li>Panel Discussion</li>
   <li>Design Principles</li>
   </ul>
-  <a href="">Learn More</a>
+  <a href="/projects/born-in-asl/">Learn More</a>
   </div>
 
   <div class="case-container">
@@ -26,7 +27,7 @@ order: 2
   <li>Interview Design</li>
   <li>Data Sorting</li>
   </ul>
-  <span>Coming Soon</span>
+  <a href="/projects/digital-toolkits-for-math/">Learn More</a>
   </div>
 
   <div class="case-container">
@@ -38,7 +39,7 @@ order: 2
   <li>Journey Maps</li>
   <li>Crazy 8's/Sketching</li>
   </ul>
-  <span>Coming Soon</span>
+  <a href="/projects/professional-development-for-teachers/">Learn More</a>
   </div>
 </div>
 
@@ -87,7 +88,7 @@ Design Ops - UX Team Support development
 </ul>
 </div>
 
-<a href="static/docs/MProwerHIB.pdf">Information Behavior of Indigenous Peoples (PDF)</a>  
+<a href="static/docs/MProwerHIB.pdf">Information Behavior of Indigenous Peoples (PDF)</a>
 <ul class="project-application">
 <li>A paper examining the information sharing habits of Indigenous populations. </li>
 </ul>
