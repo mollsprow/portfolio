@@ -26,20 +26,25 @@ My priority was to understand the Deaf and Hard of Hearing population, the way D
 
 <h3>1. Understand the research space</h3>
 
+<div class="imagecontainer">
+<img src="../../static/img/deafverseScreenshot.png" alt="Screenshot of the opening screen of the DeafVerse game" />
+<span class="caption">Screenshot from DeafVerse.com</span>
+</div>
+
 <strong>Deaf and Hard of Hearing population</strong>
--Courses from National Deaf Center
+-Courses from <a href="https://www.nationaldeafcenter.org/resources">National Deaf Center</a>
 -Information provided by project lead on Deaf populations and communication
 -Academic research on population
 -YouTube videos of ASL 
 
 <strong>Current student-centered design principles</strong>
--ETS documents and research
+-Company documents and research
 -Academic research on assessments and student centered design
 
 <strong>ASL media</strong>
--Games (Deafverse)
+-Games (such as a href="https://deafverse.com/">Deafverse</a>)
 -Assessments
--Visual language (Iconography of ASL)
+-Visual language (such as <a href="https://uxdesign.cc/the-iconography-of-american-sign-language-c27290e98055">Iconography of ASL</a>)
 
 Using materials provided by the product owner, additional accessibility standards, and a literary research pool, I compiled a loose set of preliminary design principles through card sorting. These activities provided me with a better understanding of the research space, and left me feeling much more prepared for meeting the participants in the next phase in our research, a two day conference with educators and members of the Deaf and Hard of Hearing Community.
 
@@ -100,3 +105,6 @@ The sentiments were echoed by our conference participants. This was not the firs
 
 While I did my best to educate myself on the population I was working with, to be continuously aware of my position in the room, and how I framed my questions and comments, I can only provide insight into this project from my able-bodied outsider point of view. It is clear that in order to continue this project, the company needs to involve Deaf or Hard of Hearing persons in the entire process, not just as a focus group or a consultant to refer to in stages. The people being represented must be actually represented, not just observed. And when and if the population is observed, it should be done at the guidance of that population itself, not from our assumptions of their view, and with the utmost respect and empathy we can afford.
  
+
+
+ .
