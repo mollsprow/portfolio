@@ -86,9 +86,10 @@ Design Ops - UX Team Support development
 <li>affinity mapping</li>
 <li>training</li>
 </ul>
-</div>
+
 
 <a href="static/docs/MProwerHIB.pdf">Information Behavior of Indigenous Peoples (PDF)</a>
 <ul class="project-application">
 <li>A paper examining the information sharing habits of Indigenous populations. </li>
 </ul>
+</div>

@@ -1,6 +1,7 @@
 body p, body li {font-family: 'Work Sans', sans-serif  ;}
 .container, .content {background-color:#f8f8f8;}
 body h2 {color:#b77400 !important; margin-top:1rem !important; margin-bottom:.75rem !important;}
+body h2.headerline {color:#fff !important}
 body h3 {color:#006a6d !important; font-family: itim;}
 body a {font-family: itim;}  
 
