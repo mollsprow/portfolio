@@ -42,7 +42,7 @@ My priority was to understand the Deaf and Hard of Hearing population, the way D
 - Academic research on assessments and student centered design
 
 <strong>ASL media</strong>
-- Games (such as a href="https://deafverse.com/">Deafverse</a>)
+- Games (such as <a href="https://deafverse.com/">Deafverse</a>)
 - Assessments
 - Visual language (such as <a href="https://uxdesign.cc/the-iconography-of-american-sign-language-c27290e98055">Iconography of ASL</a>)
 
