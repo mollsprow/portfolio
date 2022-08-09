@@ -28,7 +28,7 @@ My priority was to understand the Deaf and Hard of Hearing population, the way D
 
 <div class="imagecontainer">
 <img src="../../static/img/deafverseScreenshot.png" alt="Screenshot of the opening screen of the DeafVerse game" />
-<span class="caption">Screenshot from DeafVerse.com</span>
+<span class="caption">Screenshot from <a href="https://deafverse.com/">DeafVerse</a></span>
 </div>
 
 <strong>Deaf and Hard of Hearing population</strong>
