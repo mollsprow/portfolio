@@ -27,19 +27,19 @@ My priority was to understand the Deaf and Hard of Hearing population, the way D
 <h3>1. Understand the research space</h3>
 
 <strong>Deaf and Hard of Hearing population</strong>
-Courses from National Deaf Center
-Information provided by project lead on Deaf populations and communication
-Academic research on population
-YouTube videos of ASL 
+-Courses from National Deaf Center
+-Information provided by project lead on Deaf populations and communication
+-Academic research on population
+-YouTube videos of ASL 
 
 <strong>Current student-centered design principles</strong>
-ETS documents and research
-Academic research on assessments and student centered design
+-ETS documents and research
+-Academic research on assessments and student centered design
 
 <strong>ASL media</strong>
-Games (Deafverse)
-Assessments
-Visual language (Iconography of ASL)
+-Games (Deafverse)
+-Assessments
+-Visual language (Iconography of ASL)
 
 Using materials provided by the product owner, additional accessibility standards, and a literary research pool, I compiled a loose set of preliminary design principles through card sorting. These activities provided me with a better understanding of the research space, and left me feeling much more prepared for meeting the participants in the next phase in our research, a two day conference with educators and members of the Deaf and Hard of Hearing Community.
 
@@ -48,13 +48,13 @@ The purpose of the conference was to understand how students of the Deaf and Har
 <h3>2. Two Day Educator Conference</h3>
 
 <strong>Day 1 - Presentations</strong>
-Human/Student Centered Design & Usability
-How ASL students learn in the classroom
-ASL assessments
+-Human/Student Centered Design & Usability
+-How ASL students learn in the classroom
+-ASL assessments
 
 <strong>Day 2 - Break Out Rooms</strong>
-Math - Designing assessment task
-ELA - understanding ASL pedagogy
+-Math - Designing assessment task
+-ELA - understanding ASL pedagogy
 
 On day one, I gave a presentation about usability, student centered design, and how we apply accessibility to assessments with the intention of aligning those not familiar with usability and accessibility on its definition and how it applies to the discussions we would be having for the rest of the conference. 
 
@@ -85,6 +85,7 @@ All in all, I delivered:
 <h4>Lessons Learned</h4>
 
 <strong>ASL conference set up</strong>
+
 The two day conference meeting room layout was not what I had expected, having a new understanding of accessible spaces for the Deaf and Hard of Hearing. The conference room selected was our executive suite room, so aesthetically, it was the “nicest” room we had to offer. It was, however, very long and thin, which posed two difficulties- being able to see what other people around the room were signing, and movement restrictions for interpreters.  
 
 While our participants were able to space themselves around the room in a manner that allowed for full visibility, the paths of movement for interpreters proved to be an issue. Not only did we have to ask each other to pause while interpreters moved around the room to be near the person who was communicating, but the interpreters also were very tired at the end of the first day, contributing to ending our first day’s session a bit early. 
@@ -92,6 +93,7 @@ While our participants were able to space themselves around the room in a manner
 Since the second day consisted of breakout rooms, with a smaller amount of participants in each room, we did not face as many difficulties with positioning and movement. Additionally, the main room used was successful in other ways, it was large enough to accomodate for everyone so that even though we had to adjust, we were able to see each other fully. It also had minimal art on the walls and large shades drawn, so there were limited distractions behind signers and interpreters. I do, however, wish the organizers had considered the basic room set up guidelines that had been shared prior to the event a bit more closely.
 
 <strong>Abelism / safe spaces</strong>
+
 The first thing that came to my mind when I was asked to participate in this study was what right, a hearing person, do I have to be studying something that I will never fully be able to understand or be a part of? I still to this day, do not have an appropriate answer for this question. I understand that any researcher can run into this dilemma when studying any population. However, when it comes to researching marginalized populations and populations with accessibility needs, the question becomes more complicated than when, for example, working with an able bodied group of experienced users to do A/B testing. The questions grow when applying the company or the work sponsor. What right does that company have entering that space? What work has the company done in that space previously? What relationships does it have with those it’s looking to study? And most importantly, what is the intended purpose of this research? Are we at our core, doing this to help those populations? 
 
 The sentiments were echoed by our conference participants. This was not the first time that they had been interviewed and invited to discuss the topics at hand.  While they appeared eager to share their experiences, knowledge, and insights with us, the framing of able-bodied people working on a project that at that point in time did not include a non-hearing person at all was not overlooked. 
