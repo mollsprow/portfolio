@@ -15,7 +15,8 @@ module.exports = {
       colors: { ...colors }
     },
     fontFamily: {
-      sans: ["Itim", ...defaultTheme.fontFamily.sans]
+      sans: ["Work Sans", ...defaultTheme.fontFamily.sans],
+      serif: ["Modern Antiqua", ...defaultTheme.fontFamily.serif]
     }
   },
   plugins: [require("@tailwindcss/typography")]
