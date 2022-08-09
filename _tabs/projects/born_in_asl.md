@@ -32,19 +32,19 @@ My priority was to understand the Deaf and Hard of Hearing population, the way D
 </div>
 
 <strong>Deaf and Hard of Hearing population</strong>
--Courses from <a href="https://www.nationaldeafcenter.org/resources">National Deaf Center</a>
--Information provided by project lead on Deaf populations and communication
--Academic research on population
--YouTube videos of ASL 
+- Courses from <a href="https://www.nationaldeafcenter.org/resources">National Deaf Center</a>
+- Information provided by project lead on Deaf populations and communication
+- Academic research on population
+- YouTube videos of ASL 
 
 <strong>Current student-centered design principles</strong>
--Company documents and research
--Academic research on assessments and student centered design
+- Company documents and research
+- Academic research on assessments and student centered design
 
 <strong>ASL media</strong>
--Games (such as a href="https://deafverse.com/">Deafverse</a>)
--Assessments
--Visual language (such as <a href="https://uxdesign.cc/the-iconography-of-american-sign-language-c27290e98055">Iconography of ASL</a>)
+- Games (such as a href="https://deafverse.com/">Deafverse</a>)
+- Assessments
+- Visual language (such as <a href="https://uxdesign.cc/the-iconography-of-american-sign-language-c27290e98055">Iconography of ASL</a>)
 
 Using materials provided by the product owner, additional accessibility standards, and a literary research pool, I compiled a loose set of preliminary design principles through card sorting. These activities provided me with a better understanding of the research space, and left me feeling much more prepared for meeting the participants in the next phase in our research, a two day conference with educators and members of the Deaf and Hard of Hearing Community.
 
@@ -53,13 +53,13 @@ The purpose of the conference was to understand how students of the Deaf and Har
 <h3>2. Two Day Educator Conference</h3>
 
 <strong>Day 1 - Presentations</strong>
--Human/Student Centered Design & Usability
--How ASL students learn in the classroom
--ASL assessments
+- Human/Student Centered Design & Usability
+- How ASL students learn in the classroom
+- ASL assessments
 
 <strong>Day 2 - Break Out Rooms</strong>
--Math - Designing assessment task
--ELA - understanding ASL pedagogy
+- Math - Designing assessment task
+- ELA - understanding ASL pedagogy
 
 On day one, I gave a presentation about usability, student centered design, and how we apply accessibility to assessments with the intention of aligning those not familiar with usability and accessibility on its definition and how it applies to the discussions we would be having for the rest of the conference. 
 
