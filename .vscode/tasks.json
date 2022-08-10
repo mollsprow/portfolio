@@ -5,13 +5,12 @@
   "tasks": [
     {
       "label": "jekyll serve",
+      "detail": "Start the Jekyll server",
       "type": "shell",
-      "command": [
-        "bundle",
-        "exec",
-        "jekyll",
-        "serve"
-      ],
+      "command": "bundle exec jekyll serve",
+      "osx": {
+        "command": "source ~/.zshrc && bundle exec jekyll serve"
+      },
       "problemMatcher": [],
       "options": {
         "cwd": "${workspaceFolder}"
@@ -27,12 +26,17 @@
       }
     },
     {
-      "type": "npm",
-      "script": "start",
-      "path": "js_tools",
-      "problemMatcher": [],
       "label": "npm: start - js_tools",
-      "detail": "npm run build:dev && onchange \"tailwind.config.js\" \"../*.html\" \"../*.md\" \"../_layouts/*.html\" \"../_layouts/*.md\" \"../_tabs/*.html\" \"../_tabs/*.md\" -- npm run build:dev",
+      "detail": "Start the Tailwind dev server",
+      "type": "shell",
+      "command": "npm run start",
+      "osx": {
+        "command": "source ~/.zshrc && npm run start"
+      },
+      "options": {
+        "cwd": "${workspaceFolder}/js_tools/"
+      },
+      "problemMatcher": [],
       "presentation": {
         "echo": true,
         "reveal": "always",
@@ -45,20 +49,22 @@
     },
     {
       "label": "Run stuff",
-      "dependsOn": [
-        "npm: start - js_tools",
-        "jekyll serve"
-      ],
+      "dependsOn": ["npm: start - js_tools", "jekyll serve"],
       "problemMatcher": []
     },
     {
-      "type": "npm",
-      "script": "build",
-      "path": "js_tools",
-      "group": "build",
-      "problemMatcher": [],
       "label": "npm: build - js_tools",
-      "detail": "postcss ./src/**/*.css -o ../static/css/styles.css --env production"
+      "detail": "Build the Tailwind styles for production",
+      "type": "shell",
+      "command": "npm run build",
+      "osx": {
+        "command": "source ~/.zshrc && npm run build"
+      },
+      "options": {
+        "cwd": "${workspaceFolder}/js_tools/"
+      },
+      "group": "build",
+      "problemMatcher": []
     }
   ]
 }
