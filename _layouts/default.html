@@ -100,14 +100,27 @@
         </div>
         <!-- END Side bar -->
 
+        <!-- Content block -->
         <div
           id="content"
-          class="sm:border-t-4 border-[#f1f1f1] "
+          class="sm:border-t-4 border-[#f1f1f1] relative pb-16"
         >
+          <!-- Page content -->
           <div class="prose max-w-full pt-4 px-8 text-black text-lg">
             {{ content }}
           </div>
+          <!-- END Page content -->
+
+          <!-- Footer -->
+          <footer class="bg-gray-200 text-center lg:text-left absolute bottom-0 left-0 w-full h-[55px]">
+            <div class="text-gray-700 text-center p-4 h-[55px]">
+              © {{ 'now' | date: '%Y' }} Copyright:
+              <strong>Molly Prower</strong>
+            </div>
+          </footer>
+          <!-- END Footer -->
         </div>
+        <!-- END Content block -->
       </div>
     </div>
   </body>
