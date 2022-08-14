@@ -13,11 +13,11 @@ SITE_DIR="_site"
 _config="_config.yml"
 
 help() {
-  echo "Build, test and then deploy the site content to 'origin/<pages_branch>'"
+  echo "Build and test the site content"
   echo
   echo "Usage:"
   echo
-  echo "   bash ./tools/deploy.sh [options]"
+  echo "   bash ./tools/test.sh [options]"
   echo
   echo "Options:"
   echo '     -c, --config   "<config_a[,config_b[...]]>"    Specify config file(s)'
