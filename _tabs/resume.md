@@ -4,7 +4,7 @@ order: 3
 permalink: /resume/
 ---
 
-<a href="files/MollyPrower-Resume.pdf">Download Resume PDF</a>
+<a href="/static/files/MollyPrower-Resume.pdf">Download Resume PDF</a>
 
 Seasoned UX Researcher with an extensive background in product development and experience design over a range of fields from health care to education. Having been involved in every aspect of a product life cycle from conception to delivery, my passion lies in UX research and design operations. I have a need for continuous learning and challenging insufficient processes, and I thrive in environments that foster these interests.
 
