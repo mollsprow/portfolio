@@ -45,7 +45,7 @@ permalink: /projects/
 
 <h3>Other Projects</h3>
 <div class="case-studies">
-<a href="http://www.climbtechnology.com/">Climb Technology</a> (B2B application)
+<a href="http://www.climbtechnology.com/" data-proofer-ignore>Climb Technology</a> (B2B application)
 <ul class="project-application">
 <li>wireframes</li>
 <li>usability testing</li>
