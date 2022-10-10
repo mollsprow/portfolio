@@ -1,3 +1,5 @@
+ruby '3.1.2'
+
 source "https://rubygems.org"
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -19,7 +21,7 @@ group :jekyll_plugins do
 end
 
 group :test do
-  gem "html-proofer", "~> 4.0"
+  gem "html-proofer", "~> 5.0"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
