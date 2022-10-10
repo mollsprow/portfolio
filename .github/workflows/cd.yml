@@ -5,8 +5,6 @@ name: "Automatic build and deploy"
 on:
   workflow_dispatch:
   push:
-    branches:
-      - master
     paths-ignore:
       - .gitignore
       - README.md
@@ -16,6 +14,10 @@ permissions:
   contents: read
   pages: write
   id-token: write
+
+concurrency:
+  group: cicd-mollsprower-portfolio
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -52,6 +54,7 @@ jobs:
 
   deploy:
     name: "Deploy site"
+    if: github.ref == 'refs/heads/master'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
