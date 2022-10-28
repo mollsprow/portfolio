@@ -9,7 +9,7 @@
   "license": "MIT",
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.7",
-    "autoprefixer": "^10.4.12",
+    "autoprefixer": "^10.4.13",
     "material-ui-colors": "^1.0.0",
     "onchange": "^7.1.0",
     "postcss": "^8.4.18",
