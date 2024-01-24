@@ -12,6 +12,13 @@ updates:
       interval: "daily"
       time: "06:00"
       timezone: "US/Eastern"
+    groups:
+      node:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
 
   # Ruby Bundler dependencies
   - package-ecosystem: "bundler"
@@ -20,3 +27,10 @@ updates:
       interval: "daily"
       time: "06:00"
       timezone: "US/Eastern"
+    groups:
+      bundler:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
