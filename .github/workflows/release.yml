@@ -1,32 +1,26 @@
 # Workflow syntax: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
 # Triggers: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
 
-name: "Automatic build and deploy"
+name: release
+permissions: write-all
 on:
   workflow_dispatch:
   push:
-    paths-ignore:
-      - .gitignore
-      - README.md
-      - LICENSE
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+    branches: [main, master]
 
 concurrency:
-  group: cicd-mollsprower-portfolio
+  group: release-mollsprower-portfolio
   cancel-in-progress: true
+
+env:
+  SITE_DIR: "_site"
+  CONFIG_YML: "_config.yml"
+  JEKYLL_ENV: "production"
 
 jobs:
   build:
     name: "Build & upload site artifact"
     runs-on: ubuntu-latest
-    env:
-      SITE_DIR: "_site"
-      CONFIG_YML: "_config.yml"
-      JEKYLL_ENV: "production"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -44,13 +38,12 @@ jobs:
           bundler-cache: true
 
       - name: Build site
-        run: bundle exec jekyll build --config "${CONFIG_YML}" --destination "${SITE_DIR}"
-
-      - name: Test site
-        run: bundle exec htmlproofer --disable-external --allow_hash_href "${SITE_DIR}"
+        run: bundle exec jekyll build --config "${{ env.CONFIG_YML }}" --destination "${{ env.SITE_DIR }}"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ env.SITE_DIR }}
 
   deploy:
     name: "Deploy site"

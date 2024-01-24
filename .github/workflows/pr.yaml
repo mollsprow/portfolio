@@ -1,0 +1,36 @@
+# Workflow syntax: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions
+# Triggers: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
+
+name: CI
+permissions: write-all
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+    branches: [main, master]
+
+env:
+  SITE_DIR: "_site"
+  CONFIG_YML: "_config.yml"
+  JEKYLL_ENV: "production"
+
+jobs:
+  build_test:
+    name: "Build & test site"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: true
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Build site
+        run: bundle exec jekyll build --config "${{ env.CONFIG_YML }}" --destination "${{ env.SITE_DIR }}"
+
+      - name: Test site
+        run: bundle exec htmlproofer --disable-external --allow_hash_href "${{ env.SITE_DIR }}"
