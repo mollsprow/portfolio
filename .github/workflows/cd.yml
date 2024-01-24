@@ -29,14 +29,14 @@ jobs:
       JEKYLL_ENV: "production"
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           submodules: true
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v1
+        uses: actions/configure-pages@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -50,7 +50,7 @@ jobs:
         run: bundle exec htmlproofer --disable-external --allow_hash_href "${SITE_DIR}"
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
 
   deploy:
     name: "Deploy site"
@@ -63,7 +63,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
 
   purge-cache:
     name: "Purge Cloudflare cache"
