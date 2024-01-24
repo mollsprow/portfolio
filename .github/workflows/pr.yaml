@@ -6,8 +6,7 @@ permissions: write-all
 on:
   pull_request:
     types: [opened, synchronize, reopened, edited]
-    branches:
-      - main
+    branches: [main, master]
 
 env:
   SITE_DIR: "_site"
