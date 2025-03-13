@@ -13,7 +13,7 @@
     "material-ui-colors": "^1.0.0",
     "onchange": "^7.1.0",
     "postcss": "^8.5.3",
-    "postcss-cli": "^11.0.0",
+    "postcss-cli": "^11.0.1",
     "postcss-minify": "^1.1.0",
     "tailwindcss": "^4.0.13"
   }
