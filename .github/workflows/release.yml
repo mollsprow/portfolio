@@ -41,7 +41,7 @@ jobs:
         run: bundle exec jekyll build --config "${{ env.CONFIG_YML }}" --destination "${{ env.SITE_DIR }}"
 
       - name: Upload site artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ${{ env.SITE_DIR }}
 
